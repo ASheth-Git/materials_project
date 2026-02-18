@@ -1,0 +1,16 @@
+{"timestamp":"2026-02-17T17:10:30.137683Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-17T17:10:30.137973Z","level":"info","event":"Filling up the DagBag from /Users/alpesh/Desktop/Python_Learn_Hard_Way/materials_project/dags/api_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-17T17:10:30.167904Z","level":"warning","event":"The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.","category":"DeprecatedImportWarning","filename":"/Users/alpesh/Desktop/Python_Learn_Hard_Way/materials_project/dags/api_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-02-17T17:10:30.167961Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/Users/alpesh/Desktop/Python_Learn_Hard_Way/materials_project/dags/api_dag.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2026-02-17T17:10:30.194160Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.194244Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.194520Z","level":"info","event":"Current task name:extract_from_api","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.194540Z","level":"info","event":"Dag name:01_extract_nickelates","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.207914Z","level":"info","event":"Successfully retrieved credentials for my_materials_project_api","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.207969Z","level":"info","event":"Fetching data from https://api.materialsproject.org/materials/summary/...","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.913820Z","level":"info","event":"Success! Fetched 50 materials.","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.915839Z","level":"info","event":"Data saved to: /Users/alpesh/Desktop/Python_Learn_Hard_Way/materials_project/data_lake/raw/nickelates_20260217.json","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.917746Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-17T17:10:30.934357Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.934431Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-17T17:10:30.934852Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_from_api>","logger":"task.stdout"}
