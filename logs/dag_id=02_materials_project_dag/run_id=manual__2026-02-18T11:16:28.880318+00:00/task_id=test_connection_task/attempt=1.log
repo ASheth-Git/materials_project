@@ -1,0 +1,14 @@
+{"timestamp":"2026-02-18T11:16:30.057158Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-18T11:16:30.057765Z","level":"info","event":"Filling up the DagBag from /Users/alpesh/Desktop/Python_Learn_Hard_Way/materials_project/dags/api_calling_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-18T11:16:33.155403Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/Users/alpesh/Desktop/Python_Learn_Hard_Way/materials_project/dags/api_calling_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-02-18T11:16:33.155492Z","level":"warning","event":"The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.","category":"DeprecatedImportWarning","filename":"/Users/alpesh/Desktop/Python_Learn_Hard_Way/materials_project/dags/api_calling_dag.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2026-02-18T11:16:33.165920Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.166043Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.166346Z","level":"info","event":"Current task name:test_connection_task","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.166376Z","level":"info","event":"Dag name:02_materials_project_dag","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.176049Z","level":"info","event":"Attempting to connect to: https://api.materialsproject.org","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.805228Z","level":"info","event":"Connection Successful!","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.806469Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-18T11:16:33.815300Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.815384Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-18T11:16:33.815922Z","level":"info","event":"Task operator:<Task(PythonOperator): test_connection_task>","logger":"task.stdout"}
